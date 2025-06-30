@@ -1,5 +1,5 @@
 {
-  "name": "angular-msal",
+  "name": "entra-id-oidc-angular-msal-poc",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

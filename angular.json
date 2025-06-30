@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular-Msal": {
+    "entra-id-oidc-angular-msal-poc": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-msal",
+            "outputPath": "dist/entra-id-oidc-angular-msal-poc",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Angular-Msal:build:production"
+              "buildTarget": "entra-id-oidc-angular-msal-poc:build:production"
             },
             "development": {
-              "buildTarget": "Angular-Msal:build:development"
+              "buildTarget": "entra-id-oidc-angular-msal-poc:build:development"
             }
           },
           "defaultConfiguration": "development"
