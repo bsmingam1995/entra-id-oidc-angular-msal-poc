@@ -1,0 +1,6 @@
+@if (!isLoggedIn()) {
+    <button (click)="loginRedirect()">Log IN (Redirect)</button><br/>
+    <button (click)="loginPopup()">Log IN (Pop up)</button>
+} @else {
+    <button (click)="goHome()">Home</button>
+}
